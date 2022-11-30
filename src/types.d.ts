@@ -4,3 +4,7 @@ interface TodoType{
     isDone: boolean;
   
   }
+
+  interface ITodoList{
+    todos: TodoType[];
+  }
