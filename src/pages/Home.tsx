@@ -1,8 +1,8 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import InputForm from '../components/InputForm'
 import TodoList from '../components/TodoList';
-import useAxios from '../hooks/useAxios';
+
 
 const url = "https://63518210dfe45bbd55c21bb3.mockapi.io/todos"
 
