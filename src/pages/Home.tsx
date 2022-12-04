@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import InputForm from '../components/InputForm'
 import TodoList from '../components/TodoList';
+import useAxios from '../hooks/useAxios'; // eslint-disable-line ile netlify de erro hatasını kaldırırz
 
 
 const url = "https://63518210dfe45bbd55c21bb3.mockapi.io/todos"
